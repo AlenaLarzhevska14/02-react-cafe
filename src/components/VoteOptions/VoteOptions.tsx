@@ -6,7 +6,7 @@ interface VoteOptionsProps {
   onReset: () => void;
   canReset: boolean;
 }
-export default function VoteOptionsProps({
+export default function VoteOptions({
   onVote,
   onReset,
   canReset,
